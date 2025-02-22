@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(title: Text("lab 06")),
-        body: Center(
+        body: Center( 
           child: Image.network(
             'https://diablodesign.eu/images/DiabloDesign/blog/online-photo-editor/v2-polarr.webp', 
             loadingBuilder: (context, child, loadingProgress) {
