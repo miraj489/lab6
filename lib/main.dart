@@ -6,7 +6,7 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         title: const Text('Lab 06'),
-        backgroundColor: Colors.blueAccent, // AppBar এর ব্যাকগ্রাউন্ড কালার
+        backgroundColor: Colors.blueAccent,
       ),
       drawer: Drawer(
         child: ListView(
@@ -47,7 +47,7 @@ void main() {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: const Color.fromARGB(221, 15, 239, 247),
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
